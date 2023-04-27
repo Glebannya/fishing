@@ -1,0 +1,291 @@
+a{
+color:rgb(0, 0, 0);
+font-size:20px;  
+text-decoration: none;   
+}
+div{
+ color:rgb(22, 20, 20) ;   
+}
+
+
+#a2{
+    color: blueviolet;
+}
+
+#test{
+    font-size: 30px;
+    color:darkgoldenrod
+}
+
+.Human{
+    color: aqua;
+}
+
+.lion{
+    color: brown;
+}
+.monkey{
+    color: tomato;
+}
+
+
+.fish{
+    color: darkblue;
+}
+
+.message{
+    color: lime;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    font-size: 20px;
+}
+.bolt{
+    color: rgb(238, 144, 192);
+    border: 1px dashed rgb(252, 0, 0);
+    font-size: 30px;
+}
+.success{
+background-color: chocolate;
+}
+.fail{
+    background-color: brown;
+    color: aliceblue;
+}
+.message:hover{
+    border: 5px  solid blueviolet;
+}
+#test2{
+transform: rotate(0deg) scale(0.4);
+transition: 1s all;
+
+    background-color: darkgreen;
+    color: lawngreen;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid red;
+    border-radius: 30px;
+    box-shadow: 33px 3px 7px #0000000;
+    width: 10%;
+    display: block;
+   text-align:center;
+   font-weight:800;
+} 
+
+body{
+  background-color: chartreuse;
+  resize: none;
+}
+
+#test2:hover{
+transform:rotate(45deg)scale(0.3);
+
+}
+
+.portfolio{
+    height: 80vh;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Portfolio h2{
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family:'Montserrat';
+    text-transform:  uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+   
+.card{
+ width: 30%;
+ height: 300px;
+ display: inline-block;
+ margin: 0 40px;
+ border: 5px  solid blueviolet;
+ 
+}
+
+
+
+.container{
+    margin:100px auto auto auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card p{
+text-align: center;
+font-size: 2.5em;
+position:relative
+top:50%;
+
+ color: rgb(0, 0, 0); 
+}
+
+#Main{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header, #footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#Main{
+    width: 50%;
+    margin-left: 10%;
+    background: #fafafa;
+    border: 1px solid  rgb(0, 0, 0);
+    padding:20px 2.5% ;
+    float: left;
+    z-index: 1;
+    font-size: 30px;
+}
+
+#aside{
+    width: 20%;
+    padding: 20px 2.5%;
+    background: #fafafa;
+    border: 1px solid  rgb(0, 0, 0);
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    bottom: -10px;
+    z-index: 0;
+    left: -200px;
+
+
+}
+
+#footer{
+    margin-bottom: 0;
+    margin-top: 60px;
+    border-bottom: 0;
+    border-top: 4px solid rgb(201, 187, 187);
+    font-size: 40px;
+}
+
+
+#nav  {
+    
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+  
+
+
+}
+
+
+
+
+#nav li{
+    display: inline;
+    background: #fafafa;
+    border-top: 1px solid silver;
+    padding: 0 20px;
+    cursor: pointer;
+
+    
+}
+
+#nav  li:hover{
+  color: rgb(0, 0, 0);
+  background: rgb(235, 228, 228);
+  border-radius: 5px;
+  border-color: rgb(199, 186, 186);
+}
+
+
+
+
+
+#nav li:not(:last-of-type){
+    margin-right: 20px;
+}
+
+
+#SY{
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin-top: auto;
+}
+
+.
+
+.search-te{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
